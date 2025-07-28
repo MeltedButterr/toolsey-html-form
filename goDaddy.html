@@ -225,7 +225,6 @@
         addressInput.value = pred.description;
         suggestionBox.style.display = 'none';
         const terms = pred.terms || [];
-        // Optionally parse prediction terms into city/state/zip if needed
         cityInput.value = terms[2].value || ''
         stateInput.value = terms[3].value || '';
         zipInput.value = terms[4].value || '';
